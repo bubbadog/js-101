@@ -1,0 +1,58 @@
+a function that returns the sum of two numbers
+// Given two numbers
+// set function to get sum of 2 numbers
+// return calulated value
+
+//Formal pseudocode
+// START
+// Given 2 numbers
+// SET sumOfNumbers = 0
+// add numbers
+// PRINT sumOfNumbers
+// END
+
+
+a function that takes an array of strings, and returns a string that is all those strings concatenated together
+// given an array of strings
+// iterate over array 
+// save the first value to an empty string
+// for each iteration, add the subsequent string to newly concatenated string
+// after iterating over the collection, return the concatenated string
+
+// START
+// # Given an array of strings called 'strings'
+
+// SET iterator = 1
+// SET concatString = '';
+
+// WHILE iterator <= length of strings
+//  SET currentString = value within strings collection at space 'iterator'
+//  SET concatString += currentString
+//  iterator = iterator + 1
+
+// PRINT concatString
+// END
+
+
+a function that takes an array of integers, and returns a new array with every other element
+// given an array of integers
+// iterate over the array 
+// select the even elements and move them to a new array, starting with 1 (or remove the odd numbered)
+// return new array without the even numbered elements
+
+// START
+// # Given an array of integers called 'integers'
+
+// SET iterator = 1
+// SET newArray = []; value within intgers at space 1
+
+// WHILE iterator <= length of integers
+//  SET currentInteger = value within integers at space 'iterator'
+//  IF currentInteger is at space 'iterator' that is odd
+//    newArray += currentInteger 
+//  ELSE
+//    skip to the next iteration
+//
+//  iterator = iterator + 1
+//  PRINT newArray
+//  END
